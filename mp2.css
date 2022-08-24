@@ -1,0 +1,361 @@
+.body {
+			height: auto;
+			width: 1250px;
+			background-image: linear-gradient(40deg, #06114e, #060d38, #02082b)
+		}
+
+		.heading {
+			color: white;
+			font-size: 20px
+		}
+
+		#fixed {
+			position: fixed;
+			height: 65px;
+			width: 100%;
+			background-color: #060d38;
+			margin-top: -7px;
+			z-index: 100;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center
+		}
+
+		.rotate {
+			animation-name: abc;
+			animation-duration: 1s;
+			animation-iteration-count: infinite;
+			animation-direction: alternate
+		}
+
+		@keyframes abc {
+			from {
+				transform: scale(1)
+			}
+
+			to {
+				transform: scale(1.3)
+			}
+		}
+
+		.img {
+			border-radius: 50%;
+			border: 1px solid white;
+			margin: 10px
+		}
+
+		.img:hover {
+			opacity: 0.7
+		}
+
+		#search {
+			border-radius: 15px;
+			width: 300px;
+			height: 30px;
+			background-color: transparent;
+			border-color: white;
+			color: white;
+			margin-bottom: 10px;
+			margin-top: 18px
+		}
+
+
+		.inline {
+			display: flex;
+			flex-direction: row
+		}
+
+		.main {
+			margin: 20px 10px 0px 40px;
+			width: 70%;
+			height: 485px;
+			overflow: scroll
+		}
+
+		.main::-webkit-scrollbar {
+			display: none
+		}
+
+		.margin {
+			margin-top: 40px
+		}
+
+		.box {
+			background-color: black;
+			height: 270px;
+			width: 100%
+		}
+
+		.left {
+			color: white;
+			text-align: right;
+			font-size: 20px;
+			margin-top: 10px;
+			margin-right: 5px
+		}
+
+		.style {
+			font-weight: bold;
+			color: white;
+			font-size: 30px;
+			margin-left: 20px
+		}
+
+		.down {
+			color: white;
+			margin-top: 10px;
+			margin-left: 20px;
+			font-size: 20px;
+		}
+
+		.content {
+			color: white;
+			margin-top: 10px;
+			margin-left: 20px;
+			font-size: 15px;
+		}
+
+		.button {
+			margin-left: 20px;
+			margin-top: 20px;
+			height: 30px;
+			width: 100px;
+			background-image: linear-gradient(120deg, blue, purple, red);
+			color: white;
+			border: none
+		}
+
+		.submit {
+			background-color: transparent;
+			border: 1px solid white;
+			margin-left: 20px;
+			margin-top: 20px;
+			color: white;
+			height: 30px;
+			width: 100px;
+		}
+
+		.row {
+			background-color: black;
+			width: 90%;
+			height: 50px
+		}
+
+		.row:hover {
+			background-color: #1a1e33
+		}
+
+		.color {
+			color: white;
+			font-weight: bold
+		}
+
+		.image {
+			margin-top: 3px;
+			margin-left: 20px;
+			margin-right: 20px
+		}
+
+		.image:hover {
+			opacity: 0.3
+		}
+
+		#top {
+			margin-top: 20px
+		}
+
+		.top {
+			margin-top: 20px
+		}
+
+		.time {
+			color: white;
+			padding-right: 280
+		}
+
+		.sign {
+			text-align: right;
+			color: white;
+			font-weight: bold;
+		}
+
+		.artist {
+			margin-top: 57px;
+			background-color: black;
+			height: auto;
+			width: 75%;
+			margin-left: -1px;
+			margin-bottom: 10px
+		}
+
+		.dialogue {
+			height: 50%;
+			width: 100%;
+			margin-top: 0px;
+			overflow: scroll
+		}
+
+		.dialogue::-webkit-scrollbar {
+			display: none
+		}
+
+		.pic {
+			margin: 0px 10px 0px 0px;
+			border: 1px solid white
+		}
+
+		.pic:hover {
+			opacity: 0.5
+		}
+
+		.sidebar {
+			margin-left: 10px;
+			height: 485px;
+			overflow: scroll;
+			width: 30%
+		}
+
+		.sidebar::-webkit-scrollbar {
+			display: none
+		}
+
+		.hover {
+			background-color: transparent;
+			margin-top: 20px;
+			height: 106px
+		}
+
+		.hover:hover {
+			background-color: #1a1e33
+		}
+
+		.index {
+			margin-top: 57px;
+			color: white;
+			background-color: black;
+			height: 35px
+		}
+
+		#left {
+			width: 100%
+		}
+
+		#padding3 {
+			padding-left: 65
+		}
+
+		#padding2 {
+			padding-left: 130
+		}
+
+		#padding1 {
+			padding-left: 70
+		}
+
+		#padding4 {
+			padding-left: 300
+		}
+
+		#padding5 {
+			padding-left: 305
+		}
+
+		#padding6 {
+			padding-left: 310
+		}
+
+		#padding7 {
+			padding-left: 315
+		}
+
+		#padding8 {
+			padding-left: 280
+		}
+
+		#padding9 {
+			padding-left: 295
+		}
+
+		#padding10 {
+			padding-left: 280
+		}
+
+		#padding11 {
+			padding-left: 290
+		}
+
+		#padding12 {
+			padding-left: 245
+		}
+
+		#padding13 {
+			padding-left: 280
+		}
+
+		.audio {
+			width: 1260px;
+			background-color: black;
+			color: white;
+			margin-left: -10px
+		}
+
+		.styling {
+			display: none
+		}
+
+		#photo {
+			margin-left: 80px;
+			margin-top: 3px;
+			margin-bottom: 3px;
+			margin-right: 50px
+		}
+
+		.length {
+			width: 350px;
+			opacity: 0.4
+		}
+
+		.length:hover {
+			opacity: 1
+		}
+
+		#bar {
+			padding-top: 30px
+		}
+
+		.time3 {
+			color: white;
+			padding-top: 17px;
+			padding-left: 150px
+		}
+
+		.time2 {
+			color: white;
+			padding-top: 17px
+		}
+
+		.bar2 {
+			padding-top: 10px;
+			padding-left: 250px
+		}
+
+		#range {
+			width: 100px;
+			opacity: 0.4
+		}
+
+		#range:hover {
+			opacity: 1
+		}
+
+		.material {
+			color: white;
+			font-size: 20px;
+			font-style: italic;
+			text-align: center
+		}
+
+		.logo {
+			margin-left: -80px
+		}
